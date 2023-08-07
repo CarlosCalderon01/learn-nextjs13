@@ -33,3 +33,21 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # learn-nextjs13
+
+//-----//-----//-----//-----//ABSTRACT//-----//-----//-----//-----//
+
+1- Rouitng in nextjs
+
+    Good to know:
+
+        page:
+
+        App is the trunk.
+            The file and sub file is subtree.
+                A page is the leaf --> File extensions can be used for Pages {js, jsx, tsx}
+        
+        A page.js file is required to make a route segment publicly accessible.
+        Pages are Server Components by default but can be set to a Client Component.
+        Pages can fetch data. View the Data Fetching section for more information.
+
+        
