@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function UsersPage() {
   return (
-    <div>UsersPage</div>
-  )
+    <div>
+      <div>
+        <h1>Users Page Gneral!</h1>
+      </div>
+    </div>
+  );
 }
 
-export default UsersPage
+export default UsersPage;

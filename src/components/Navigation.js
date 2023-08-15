@@ -1,17 +1,19 @@
+// ----- // ----- /LIBRARY/ ----- // ----- //
 import Link from "next/link";
 
+// ----- // ----- /PAGE/ ----- // ----- //
 function Navigation() {
   return (
     <div>
       <ul>
         <li>
-          <Link href="/">home</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">about</Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href="/dashboard">dashboard</Link>
+          <Link href="/dashboard">DashBoard</Link>
         </li>
       </ul>
     </div>
@@ -19,3 +21,7 @@ function Navigation() {
 }
 
 export default Navigation;
+
+/** Note -->
+- Component navigation for menu. i use before version of nextjs13
+*/
